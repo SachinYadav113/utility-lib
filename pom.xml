@@ -10,11 +10,11 @@
     <distributionManagement>
         <repository>
             <id>nexus-repository-release</id>
-            <url>http://192.168.29.230:8087/repository/configuration-api-release/</url>
+            <url>http://192.168.29.230:8087/repository/main-release/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-repository-snapshot</id>
-            <url>http://192.168.29.230:8087/repository/configuration-api-snapshot/</url>
+            <url>http://192.168.29.230:8087/repository/main-snapshots/</url>
         </snapshotRepository>
     </distributionManagement> 
 
