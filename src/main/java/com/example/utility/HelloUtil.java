@@ -8,7 +8,7 @@
 package com.example.utility;
 
 public class HelloUtil {
-    public static String getMessages() {
+    public static String getMessage() {
         return "Hello from utility-lib!testing";
     }
 }
