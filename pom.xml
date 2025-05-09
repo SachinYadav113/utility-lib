@@ -18,12 +18,12 @@
         </snapshotRepository>
     </distributionManagement>  -->
          
-         <distributionManagement>
+<!--          <distributionManagement>
     <snapshotRepository>
         <id>utility-snapshots</id>
         <url>http://192.168.29.230:8087/repository/utility-snapshots/</url>
     </snapshotRepository>
-</distributionManagement>
+</distributionManagement> -->
 
 
   <build>
