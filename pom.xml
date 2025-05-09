@@ -7,7 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   
-    <distributionManagement>
+<!--     <distributionManagement>
         <repository>
             <id>nexus-repository-release</id>
             <url>http://192.168.29.230:8087/repository/main-release/</url>
@@ -16,7 +16,15 @@
             <id>nexus-repository-snapshot</id>
             <url>http://192.168.29.230:8087/repository/main-snapshots/</url>
         </snapshotRepository>
-    </distributionManagement> 
+    </distributionManagement>  -->
+         
+         <distributionManagement>
+    <snapshotRepository>
+        <id>utility-snapshots</id>
+        <url>http://192.168.29.230:8087/repository/utility-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+
 
   <build>
     <plugins>
